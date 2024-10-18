@@ -1,0 +1,44 @@
+﻿@model BincomSecondAssignment.Models.MyCvModel
+@{
+    ViewData["Title"] = "MyCV";
+}
+
+<div class="container">
+    <h1>@Model.Name</h1>
+    <h3>Contact Information</h3>
+    <p>Email: @Model.Email</p>
+    <p>Phone: @Model.Phone</p>
+    <p>LinkedIn: <a href="@Model.LinkedIn">@Model.LinkedIn</a></p>
+    <p>GitHub: <a href="@Model.GitHub">@Model.GitHub</a></p>
+
+    <h3>Summary</h3>
+    <p>@Model.Summary</p>
+
+    <h3>Skills</h3>
+    <ul>
+        @foreach (var skill in Model.Skills)
+        {
+            <li>@skill</li>
+        }
+    </ul>
+
+    <h3>Work Experience</h3>
+    @foreach (var experience in Model.WorkExperiences)
+    {
+        <h4>@experience.JobTitle at @experience.CompanyName (@experience.Duration)</h4>
+        <p>@experience.Description</p>
+    }
+
+    <h3>Projects</h3>
+    @foreach (var project in Model.Projects)
+    {
+        <h4>@project.ProjectTitle</h4>
+        <p>@project.Description</p>
+    }
+
+    <h3>Education</h3>
+    @foreach (var education in Model.Educations)
+    {
+        <p>@education.Degree at @education.Institution (@education.Year)</p>
+    }
+</div>
