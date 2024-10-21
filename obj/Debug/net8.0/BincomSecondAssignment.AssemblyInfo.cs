@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BincomSecondAssignment")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf6d1da0ca974e8e20406012af0bcefa05abd922")]
 [assembly: System.Reflection.AssemblyProductAttribute("BincomSecondAssignment")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BincomSecondAssignment")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

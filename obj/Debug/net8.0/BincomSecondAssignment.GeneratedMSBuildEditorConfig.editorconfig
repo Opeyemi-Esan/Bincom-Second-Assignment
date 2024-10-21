@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\HP PC\source\repos\BincomFirstAssignment\BincomFirstAssignment
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/HP PC/source/repos/BincomFirstAssignment/BincomFirstAssignment/Views/Gallery/GetAllGalleries.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxHZXRBbGxHYWxsZXJpZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HP PC/source/repos/BincomFirstAssignment/BincomFirstAssignment/Views/Gallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/HP PC/source/repos/BincomFirstAssignment/BincomFirstAssignment/Views/Home/CalculateTax.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxjdWxhdGVUYXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

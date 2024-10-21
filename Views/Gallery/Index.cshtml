@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Upload Photo";
+}
+
+<h2>Upload Photo</h2>
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="file">Select Photo:</label>
+        <input type="file" name="file" id="file" required />
+        <label for="contenttitle">Content Title:</label>
+        <input type="text" name="Contenttitle" id="contenttitle" required />
+    </div>
+    <div>
+        <button type="submit">Upload</button>
+    </div>
+</form>
+
+<p>
+    <a href="@Url.Action("GetAllGalleries")">View All Photos</a>
+</p>
